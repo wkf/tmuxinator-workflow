@@ -1,0 +1,13 @@
+root: '~'
+windows:
+- editor:
+    layout: 8bdd,141x49,0,0{80x49,0,0,73,60x49,81,0[60x24,81,0,74,60x24,81,25,75]}
+    panes:
+    - vim .
+    - ''
+    - ''
+#- scratch:
+    #layout: even-horizontal
+    #panes:
+    #- ''
+    #- ''

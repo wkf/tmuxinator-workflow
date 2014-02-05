@@ -1,0 +1,12 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    fuzzy_match (2.0.4)
+    nokogiri (1.5.11)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fuzzy_match
+  nokogiri
