@@ -48,7 +48,6 @@ module Alfred
 
     def action(action, target)
       s, arg = target.split ':'
-      logger.info 'hello'
 
       @sources[s].new.send(action.to_sym, arg)
     end

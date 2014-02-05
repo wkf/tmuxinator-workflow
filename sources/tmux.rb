@@ -66,9 +66,6 @@ class Tmux::SessionCreate < Alfred::Source
   end
 
   def create(name, path = nil)
-    logger = Logger.new('development.log')
-
-    logger.info 'here'
     template = YAML::load_file 'default_template.yml'
 
     template['name'] = name
@@ -84,9 +81,6 @@ class Tmux::SessionCreate < Alfred::Source
   end
 
   def create_from_path(path)
-    logger = Logger.new('development.log')
-
-    logger.info 'here'
     create File.basename(path), path
   end
 
